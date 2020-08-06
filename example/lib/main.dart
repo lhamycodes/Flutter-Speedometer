@@ -22,10 +22,12 @@ void main() {
                 meterColor: Colors.lightBlueAccent,
                 warningColor: Colors.orange,
                 kimColor: Colors.purpleAccent,
-                displayNumericStyle: TextStyle(
-                    fontFamily: 'Digital-Display',
-                    color: Colors.white,
-                    fontSize: 18),
+                titleText: "30",
+                titleStyle: TextStyle(
+                  fontFamily: 'Digital-Display',
+                  color: Colors.white,
+                  fontSize: 18,
+                ),
                 displayText: '°C',
                 displayTextStyle: TextStyle(color: Colors.white, fontSize: 8),
               ),
@@ -40,10 +42,12 @@ void main() {
                 meterColor: Colors.green,
                 warningColor: Colors.orange,
                 kimColor: Colors.white,
-                displayNumericStyle: TextStyle(
-                    fontFamily: 'Digital-Display',
-                    color: Colors.white,
-                    fontSize: 40),
+                titleText: "58",
+                titleStyle: TextStyle(
+                  fontFamily: 'Digital-Display',
+                  color: Colors.white,
+                  fontSize: 40,
+                ),
                 displayText: 'km/h',
                 displayTextStyle: TextStyle(color: Colors.white, fontSize: 15),
               ),
